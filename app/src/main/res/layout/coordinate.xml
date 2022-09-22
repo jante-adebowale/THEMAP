@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorPanel"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:paddingBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:src="@drawable/placeholder"
+        android:layout_width="20dp"
+        android:layout_height="20dp"></ImageView>
+
+    <TextView
+        android:id="@+id/latitudeLbl"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Latitude"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"></TextView>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent"></View>
+
+
+    <TextView
+        android:id="@+id/longitudeLbl"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Longitude"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
